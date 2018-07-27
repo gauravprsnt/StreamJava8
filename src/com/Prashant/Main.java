@@ -12,18 +12,18 @@ import com.Prashant.forEach.UsingForEach;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        UsingForEach usingForEach=new UsingForEach();
+        // write your code here
+        UsingForEach usingForEach = new UsingForEach();
 
-        Car car=new Car();
+        Car car = new Car();
 
-        UsingLimit usingLimit=new UsingLimit();
+        UsingLimit usingLimit = new UsingLimit();
 
-        UsingSort usingSort=new UsingSort();
+        UsingSort usingSort = new UsingSort();
 
-        UsingFilter usingFilter=new UsingFilter();
+        UsingFilter usingFilter = new UsingFilter();
 
-        UsingMap usingMap=new UsingMap();
+        UsingMap usingMap = new UsingMap();
 
         System.out.println("Using ForEach");
         usingForEach.trying();

@@ -1,6 +1,6 @@
 package com.Prashant.DefaultMethods;
 
-public class Car implements Vehicle,TwoWheeler {
+public class Car implements Vehicle, TwoWheeler {
 
     @Override
     public void print() {
