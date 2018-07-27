@@ -1,9 +1,11 @@
 package com.Prashant;
 
+import com.Prashant.DefaultMethods.Car;
 import com.Prashant.Filter.UsingFilter;
 import com.Prashant.Limit.UsingLimit;
 import com.Prashant.Map.UsingMap;
 import com.Prashant.Sort.UsingSort;
+import com.Prashant.Statistics.UsingStatistic;
 import com.Prashant.UsingStreamDifferently.UsingStreamDifferently;
 import com.Prashant.forEach.UsingForEach;
 
@@ -12,6 +14,8 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         UsingForEach usingForEach=new UsingForEach();
+
+        Car car=new Car();
 
         UsingLimit usingLimit=new UsingLimit();
 
@@ -38,5 +42,10 @@ public class Main {
 
 
         UsingStreamDifferently.trying();
+
+        UsingStatistic.trying();
+
+        car.print();
+
     }
 }
